@@ -1,0 +1,36 @@
+PROCEDURE:
+A demilitarized zone(DMZ) is a secure network segment that acts as a buffer between
+an organization internal network and the internet.
+This provides an additional layer of security for the internal network and protect against
+external threats.
+ Identify sensitive resources: The first step is to identify the sensitive resources that need
+to be protected, such as web servers, email servers, and databases. These resources will
+be hosted in the DMZ.
+ Plan the network architecture: Determine the location of the DMZ in relation to the
+internal network and the Internet. The DMZ should be placed between the internal
+network and the Internet to provide a buffer between the sensitive resources and
+external threats.
+Ex. No. 2 CREATE A DEMILITARIZED ZONE CREATION IN NETWORK
+ENVIRONMENT FOR INFORMATION SECURITY
+ Create a separate network segment: Set up a separate network segment for the DMZ,
+using firewalls or routers to physically separate it from the internal network.
+ Configure firewall rules: Configure firewall rules to allow only necessary traffic to
+flow between the DMZ and the internal network. This may include allowing incoming
+traffic from the Internet to reach the web servers in the DMZ, and allowing the web
+servers to communicate with the database servers in the internal network.
+ Implement security measures: Implement security measures such as firewalls, intrusion
+detection systems, and anti-virus software in the DMZ to protect the sensitive resources
+hosted there.
+ Monitor and audit the DMZ: Regularly monitor and audit the DMZ to ensure that it is
+functioning as expected and to identify any security breaches or potential
+vulnerabilities.
+ Update the DMZ configuration: Regularly update the DMZ configuration to reflect
+changes in the network environment and to maintain a high level of security.
+ Host web servers, email servers, and databases: Host the sensitive resources in the
+DMZ, including web servers, email servers, and databases.
+ Allow incoming traffic and communication: Allow incoming traffic from the Internet
+to reach the web servers in the DMZ, and allow communication between the web
+servers and the database servers in the internal network.
+ Control traffic flow: Ensure that only necessary traffic is allowed to flow between the
+DMZ and the internal network. This helps reduce the risk of security breaches and
+protects sensitive information. 

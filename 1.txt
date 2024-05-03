@@ -1,0 +1,52 @@
+AUDIT SECURITY POLICY IMPLEMENTATION IN
+WINDOWS ENVIRONMENT
+
+run in cmd adminstrator
+
+FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F")
+
+
+FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F")
+
+win+r
+secpol.msc
+
+
+PROCEDURE:
+An audit of a security policy implementation in a Windows environment involves
+evaluating the effectiveness of the existing security measures and procedures to determine if
+they are being implemented and followed as stated in the security policy. The objective of an
+audit is to identify areas where the implementation of the policy may be lacking, to recommend
+changes to the policy implementation, and to ensure that the security measures are being
+properly implemented to protect against potential security threats in a Windows environment.
+ Review of the existing security policy and procedures: This step involves thoroughly
+reviewing the current security policy and procedures for Windows systems to
+understand the established security measures
+ Assessment of the policy implementation: This step involves assessing the
+implementation of the security policy and procedures by reviewing system logs,
+monitoring user activity, and conducting interviews with staff to ensure that the security
+measures are being properly implemented.
+ Evaluation of the security measures: This step involves evaluating the existing security
+measures to determine if they are being properly implemented and if they are effective
+in addressing potential security threats. This may include testing the security measures,
+such as firewalls and antivirus software, to verify their effectiveness.
+Ex. No. 1 AUDIT SECURITY POLICY IMPLEMENTATION IN
+WINDOWS ENVIRONMENT
+2
+ Recommendation for improvements: Based on the results of the evaluation,
+recommendations for improvements to the policy implementation may be made. This
+could include providing additional training to staff, changing access controls, or
+updating system configurations.
+ Implementation of the recommendations: This step involves implementing the
+recommendations to improve the policy implementation and the effectiveness of the
+security measures. This could include updating the security policy and procedures,
+providing training to staff, and making changes to the Windows systems.
+ Regular monitoring and review: Regular monitoring and review of the policy
+implementation is important to ensure that the security measures are being properly
+implemented and followed. This may involve conducting regular audits, updating the
+security policy and procedures, and responding to any changes in the security
+landscape.
+3
+RESULT:
+Thus, Implementation of audit security policy on windows environment is executed
+successfully. 

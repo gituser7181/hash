@@ -1,0 +1,41 @@
+Window patch management is the process of ensuring that the operating system and installed
+applications on a computer are up-to-date with the latest security patches and updates.
+Implementing a patch management policy is an important step in ensuring the security and
+stability of a computer system.
+ Identify the systems that need to be patched: Determine which computers and servers
+need to be included in the patch management process. This may include desktops,
+laptops, servers, and other devices running Windows.
+ Assess the current patch level: Use tools such as the Windows Update service or thirdparty patch management software to determine the current patch level of each system.
+This will help you determine which systems need to be updated and which updates are
+required
+Ex. No. 4
+ IMPLEMENT WINDOWS PATCH MANAGEMENT POLICY
+12
+ Create a patch management plan: Determine the schedule for patching, including when
+patches will be installed, how they will be tested, and how they will be rolled out to
+production systems. Also, determine the processes and procedures for documenting and
+tracking patches.
+ Choose a patch management solution: Choose a patch management solution that meets
+your needs. This may include using the Windows Update service, a third-party patch
+management software, or a combination of both.
+
+13
+ Implement the patch management solution: Install the patch management solution on
+each system that needs to be updated. This may include configuring the software to
+automatically download and install updates, or it may require manual intervention to
+download and install updates.
+ Test patches before deploying: Before deploying patches to production systems, it is
+important to test them in a test environment to ensure that they do not cause any adverse
+effects. This can include testing patches in a virtual machine or on a test server.
+ Deploy patches to production systems: Once the patches have been tested, they can be
+deployed to production systems. This can be done using automated tools, or it may
+require manual intervention.
+ Monitor and verify the patch level: Regularly monitor the patch level of each system to
+ensure that it is up-to-date. Verify that all necessary updates have been installed and
+that there are no missing patches.
+ Document patches: Document the patches that have been installed, including the date
+they were installed, the version of the patch, and any associated documentation.
+14
+ Review and update the patch management policy: Regularly review and update the
+patch management policy to ensure that it continues to meet your needs and to reflect
+changes in the environment. 

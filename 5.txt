@@ -1,0 +1,54 @@
+https://sourceforge.net/projects/sleuthkit/
+
+PROCEDURE:
+Sleuthkit is a powerful open-source toolkit for forensic analysis of computer systems.
+It provides a collection of command-line and graphical tools for investigating disk images
+and analyzing the contents of file systems. One of the main features of Sleuthkit is its ability
+to perform file analysis.
+File analysis using Sleuthkit involves examining the contents of files and determining
+information about them, such as their type, creation and modification dates, and other
+metadata.
+ Sleuthkit provides several tools for analyzing individual files, including "istat" and
+"fsstat".
+ The "istat" command is used to display information about a specific file in a disk image,
+such as its inode number, creation and modification dates, and other metadata.
+Ex. No. 5
+ FILE ANALYSIS USING SLEUTHKIT
+16
+ The "fsstat" command provides a summary of the contents of a file system, including
+information about the number of files, the size of the file system, and the type of file
+system.
+ Sleuthkit also provides several tools for searching and locating specific files within disk
+images, including "fls" and "icat".
+ The "fls" command can be used to list the contents of a file system, including
+information about each file's inode number, name, type, and size.
+ The "icat" command is used to extract the contents of a specific file from a disk image.
+17
+18
+ Sleuthkit provides the ability to analyze file types, including support for a variety of
+file formats, such as text files, image files, and executable files.
+ Sleuthkit includes the "sorter" tool, which can be used to sort files within a disk image
+based on various criteria, such as file type, size, or creation date.
+ The "tsk_recover" tool can be used to recover deleted files from a disk image.
+ Sleuthkit also provides tools for analyzing file metadata, such as timestamps, file
+names, and other attributes.
+ The "ffind" command can be used to search for files that match specific criteria, such
+as file name, creation date, or size.
+ Sleuthkit supports the analysis of file slack, which is the unused portion of a file that
+can contain valuable information, such as deleted data.
+ The "blkls" command can be used to display the contents of the slack space of a file.
+ Sleuthkit provides the ability to analyze file system structures, including support for
+various file system types, such as NTFS, FAT, and ext2.
+ The "fsstat" and "mmls" commands can be used to display information about the
+structure of a file system, including the layout of partitions, the number of blocks, and
+the size of the file system.
+ Sleuthkit also provides support for the analysis of disk images, including the ability to
+mount disk images as file systems.
+ The "mount_ewf" command can be used to mount a disk image in the EnCase format.
+19
+ Sleuthkit includes the "tsk_loaddb" command, which can be used to create a database
+of the contents of a disk image for faster searching and analysis.
+ Sleuthkit provides the ability to perform hash analysis, including support for common
+hash algorithms, such as MD5 and SHA-1.
+ The "hash_lookup" command can be used to search for files within a disk image that
+match a specific hash value. 

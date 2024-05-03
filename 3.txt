@@ -1,0 +1,55 @@
+REGISTRY EDITING AND VIEWING USING NATIVE
+TOOLS OF OS 
+
+
+open registory editor
+copy path 
+cmd
+reg export "<copy_path>" test.reg
+
+
+PROCEDURE:
+The Windows Registry is a database that stores low-level settings for the Microsoft
+Windows operating system and for applications that opt to use the registry. The registry
+contains information and settings for hardware, operating system software, and most
+applications installed on a computer.
+Registry editing and viewing refers to the process of modifying and viewing the
+contents of the registry, respectively.
+ The Windows Registry Editor (regedit.exe) is the native tool used to edit the registry
+on Windows operating systems.
+ The registry editor allows users to create, modify, and delete registry keys and values.
+ To open the registry editor, go to the Start menu and search for "regedit" or press
+Windows + R, type "regedit" and press Enter.
+ The registry editor has a tree-like structure, with "hives" at the top level and keys and
+values organized beneath them.
+Ex. No. 3 REGISTRY EDITING AND VIEWING USING NATIVE
+TOOLS OF OS
+
+ The five main hives in the registry are HKEY_CLASSES_ROOT,
+HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE, HKEY_USERS, and
+HKEY_CURRENT_CONFIG.
+ To edit a value, double-click it and enter the new value in the dialog box that appears
+ To create a new key, right-click the parent key and select "New" and then "Key."
+ To delete a key, right-click it and select "Delete."
+ Be careful when editing the registry as incorrect modifications can cause system
+instability or even render the operating system unbootable.
+ It is recommended to make a backup of the registry before making any modifications.
+ To back up the registry, go to File and select "Export."
+
+ You can also use the native Windows tool "Registry Editor" to view the registry.
+ To view the registry, open the registry editor as described above and navigate to the
+key or value you want to view.
+ The registry editor displays the contents of the registry in a tree-like structure, allowing
+you to view and search for specific keys and values.
+ Another native tool for viewing the registry is the "Reg Command-Line Utility" (REG).
+ REG is a command-line tool that allows users to perform various registry operations,
+including viewing and exporting registry values.
+ To view a specific value using REG, open the command prompt and type "REG
+QUERY [key name]" where [key name] is the path to the key you want to view.
+ The output will display the contents of the specified key and its values.
+ To export the contents of a key to a file using REG, type "REG EXPORT [key name]
+[file name]" where [key name] is the path to the key and [file name] is the name of the
+file you want to export to.
+ These are some of the native tools available for registry editing and viewing in
+Windows operating systems. Always be cautious when making changes to the registry
+and consider backing up the registry before making any modifications. 
